@@ -1,0 +1,17 @@
+{
+    "courses": {
+      "1": {
+        "id": 1,
+        "name": "Introduction to React",
+        "instructor": "John Doe",
+        "likes": 0
+      },
+      "2": {
+        "id": 2,
+        "name": "Advanced JavaScript",
+        "instructor": "Jane Smith",
+        "likes": 0
+      }
+    }
+  }
+  

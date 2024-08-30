@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+## My Courses Application
+This is a web application for showcasing a list of courses and their details using React. It includes a Course Listing page, a Course Details page, and a Student Dashboard.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Course Listing: Displays a list of courses with basic information. Users can click on a course to view its details.
+Course Details: Shows detailed information about a selected course, including the instructor, schedule, syllabus, and more.
+Student Dashboard: Displays the courses a student is enrolled in, along with progress and completion options.
+Dark Mode: The application supports dark mode, which can be toggled on or off.
+## Installation
+# Prerequisites
+Make sure you have the following installed:
 
-## Available Scripts
+Node.js (v14 or later)
+npm (Node Package Manager)
+### Steps to Install
+# 1. Clone the Repository:
 
-In the project directory, you can run:
+git clone https://github.com/yourusername/my-courses-app.git
+cd my-courses-app
+# 2. Install Dependencies:
 
-### `npm start`
+When installing dependencies, you need to use the --legacy-peer-deps flag due to potential compatibility issues with peer dependencies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm install --legacy-peer-deps
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 3. Start the Development Server:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once the dependencies are installed, you can start the development server:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
+The application should now be running on http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Home Page: Lists all available courses.
+Course Details Page: Click on any course from the listing to see its details.
+Student Dashboard: Accessible via the navigation bar, this page shows the enrolled courses and allows marking them as completed.
+Dark Mode: Toggle between light and dark modes using the sun/moon icon in the navbar.
+Technologies Used
+React: JavaScript library for building user interfaces.
+Redux: State management library.
+Firebase: For backend services like database and authentication.
+Tailwind CSS: Utility-first CSS framework for styling.
+React Icons: For including icons in the project.
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
